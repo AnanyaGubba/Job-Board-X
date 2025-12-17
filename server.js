@@ -15,7 +15,7 @@ app.use(express.json());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '@Gubb4788',  // CHANGE THIS
+    password: 'your_password',  // CHANGE THIS
     database: 'job_board_db'
 });
 
@@ -122,3 +122,4 @@ app.get('/jobs/recommended', authenticateToken, async (req, res) => {
 });
 
 app.listen(port, () => console.log(`✅ Backend running http://localhost:${port}`));
+
