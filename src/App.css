@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.auth-form,
+.job-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-card {
+  background: white;
+  padding: 15px;
+  width: 260px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.recommended {
+  border: 2px solid green;
+}
